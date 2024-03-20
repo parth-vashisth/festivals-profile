@@ -12,20 +12,20 @@
 <body>
     <!---------SEC-1----------->
     <section>
-        <div class="menu">
+        <div class="menu z-10">
             <div class="container w-100 z-10 ">
                 <nav class="d-flex justify-between align-center nav-bar">
                     <div class="d-flex align-center justify-center cursor">
-                        <img src="./assets/images/earth.png" alt="logo" class="w-40">
+                        <img src="./assets/images/earth.png" alt="logo" class="w-30">
                         <h1 class="Events">Events<span class="Free">Free</span></h1>
                     </div>
-                    <label for="nav-icon">
+                    <label for="nav-icon" class="nav-icon">
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
                     <input type="checkbox" id="nav-icon" hidden>
-                    <ul class="justify-between align-center d-flex gap30 display">
+                    <ul class="justify-between align-center gap30 display">
                         <li>
                             <a href="" class="nav-link">
                                 HOME
@@ -55,14 +55,14 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <img src="./assets/images/partyhall.png" alt="img" class="w-100 mt-156">
                 </div>
-                <div class="col-8 mt-107">
+                <div class="col-lg-8 col-12 mt-107">
                     <p class="home">Home > Username</p>
-                    <div class="d-flex align-center gap70">
+                    <div class="d-flex align-center gap70 f-wrap">
                         <h1 class="doe">Jhone Doe</h1>
-                        <div class="d-flex gap13">
+                        <div class="d-flex gap13 f-wrap">
                             <button class="Show">Unshow Journey of Feed</button><button class="Show">Show Journey of
                                 Feed</button>
                         </div>
@@ -74,7 +74,7 @@
                         vitae
                         dolor fringilla urna
                         eget aliquet.</p>
-                    <div class="d-flex gap30 align-center mt-24">
+                    <div class="d-flex gap30 align-center f-wrap mt-24">
                         <div class="d-flex align-center justify-center"><span><svg width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.6">
@@ -166,8 +166,8 @@
 
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 mt-156">
+            <div class="row f-direction-col-reverse f-direction-lg-row">
+                <div class="col-lg-6 col-12 mt-156">
                     <div>
                         <span><svg width="118" height="118" viewBox="0 0 118 118" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -191,9 +191,9 @@
                             vulputate.</p>
                     </div>
                 </div>
-                <div class="col-6 mt-85">
+                <div class="col-lg-6 col-12 mt-85">
                     <div class="w-100 postn-rel">
-                        <img src="./assets/images/concert.png" alt="img">
+                        <img src="./assets/images/concert.png" alt="img" class="w-100">
                         <span class="yt-icon">
                             <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -213,7 +213,7 @@
     <!--------------SEC-2---------------->
     <section>
         <div class="container">
-            <div class="line1"></div>
+            <div class="d-flex align-center justify-center"><span class="line1"></span></div>
             <p class="gallery">Gallery</p>
             <div class="grid-container">
                 <img src="./assets/images/grid1.png" alt="img" class="item-1 w-100 h-100">
@@ -228,7 +228,7 @@
     <!----------------------SEC-3---------------------------->
     <section class="pb-70">
         <div class="container">
-            <div class="line1"></div>
+            <div class="d-flex align-center justify-center"><span class="line1"></span></div>
             <p class="gallery">Tell Us!</p>
             <div class="d-flex justify-center align-center">
                 <p class="sec-3-text">Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
@@ -239,7 +239,7 @@
                     fringilla urna
                     eget aliquet.</p>
             </div>
-            <div class="commentbox d-flex align-center justify-between mt-47">
+            <div class="commentbox d-flex align-center f-wrap mt-47">
                 <div class="d-flex align-center gap13">
                     <img src="./assets/images/commentbox.png" alt="img">
                     <input type="text" placeholder="Add a new comment" class="comnt-text" maxlength="1500">
@@ -416,11 +416,11 @@
     <!----------------------------SEC-4------------------------------------->
     <footer class="bg-black">
         <div class="container">
-            <div class="row">
+            <div class="row w-100">
 
-                <div class="col-5 pt-70">
+                <div class="col-lg-5 col-12 pt-70">
                     <div class="d-flex align-center">
-                        <img src="./assets/images/earth.png" alt="logo" class="w-40">
+                        <img src="./assets/images/earth.png" alt="logo" class="">
                         <h1 class="Events">Events<span class="Free">Free</span></h1>
                     </div>
                     <p class="col-5-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna
@@ -466,9 +466,9 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-7 pt-70">
-                    <div class="row">
-                        <div class="col-3 ">
+                <div class="col-lg-7 col-12 pt-70">
+                    <div class="row w-100">
+                        <div class="col-md-3 mb-28 col-6 ">
                             <h2 class="list-head">SERVICES</h2>
                             <p class="list-text">About</p>
                             <p class="list-text">News</p>
@@ -476,15 +476,17 @@
                             <p class="list-text">Contact</p>
 
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-6">
                             <h2 class="list-head">EVENTS</h2>
                             <p class="list-text">ullamcorper</p>
                             <p class="list-text">ullamcorper</p>
                             <p class="list-text">ullamcorper</p>
                             <p class="list-text">ullamcorper</p>
                         </div>
-                        <div class="col-6">
-                            <div class="row">
+                        <div class="col-md-6 col-12 ">
+                            <p class="list-head  mb-28">Gallery</p>
+                            <div class="row w-100">
+
                                 <div class="col-4">
                                     <img src="./assets/images/foot1.png" alt="" class="w-100 ">
                                 </div>
