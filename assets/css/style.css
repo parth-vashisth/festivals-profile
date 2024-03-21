@@ -98,8 +98,8 @@
     width: 100%;
 }
 
-.gap70 {
-    gap: 70px;
+.gap30 {
+    gap: 30px;
 }
 
 .f-wrap {
@@ -157,9 +157,6 @@
     gap: 13px;
 }
 
-.mt-107 {
-    margin-top: 156px;
-}
 
 .mt-24 {
     margin-top: 24px;
@@ -189,9 +186,6 @@
     padding-right: 12px;
 }
 
-.mt-156 {
-    margin-top: 156px;
-}
 
 .mt-22 {
     margin-top: 22px;
@@ -745,5 +739,13 @@
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
+    }
+
+    .pt-165 {
+        padding-top: 165px;
+    }
+
+    .mt-156 {
+        margin-top: 156px;
     }
 }
