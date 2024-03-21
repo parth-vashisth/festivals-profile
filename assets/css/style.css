@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.cursor {
+.crsor-pointr {
     cursor: pointer;
 }
 
@@ -752,5 +752,13 @@
 
     .mt-156 {
         margin-top: 156px;
+    }
+
+    .mt-124 {
+        margin-top: 124px;
+    }
+
+    .padding20 {
+        padding: 20px;
     }
 }
