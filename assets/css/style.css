@@ -28,6 +28,10 @@
     display: flex;
 }
 
+.mt-90 {
+    margin-top: 90px;
+}
+
 .justify-between {
     justify-content: space-between;
 }
@@ -391,6 +395,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .more:hover {
